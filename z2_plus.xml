@@ -14,6 +14,8 @@
 
   <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github"/>
 
+  <project path="packages/apps/FlipFlap" name="LineageOS/android_packages_apps_FlipFlap" remote="github"/>
+
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github"/>
  
   <project path="vendor/qcom/binaries" name="TheMuppets/proprietary_vendor_qcom_binaries" remote="github"/> 
