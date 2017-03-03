@@ -10,7 +10,7 @@
 
   <project path="vendor/zuk/z2_plus" name="proprietary_vendor_zuk_z2_plus" remote="ontherunvaro"/>
  
-  <project path="kernel/zuk/msm8996" name="android_kernel_zuk_z2_plus" remote="ontherunvaro"/>
+  <project path="kernel/zuk/msm8996" name="android_kernel_zuk_msm8996" remote="ontherunvaro"/>
 
   <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github"/>
 
