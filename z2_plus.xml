@@ -2,9 +2,7 @@
 
 <manifest>
 
-  <remote name="ontherunvaro" fetch="https://github.com/ontherunvaro/" push="ssh://git@github.com/ontherunvaro/" revision="android-7.1"/>
-
-  <project path="device/zuk/z2_plus" name="twrp_device_zuk_z2_plus" remote="ontherunvaro"/>
+  <project path="device/zuk/z2_plus" name="TeamWin/android_device_zuk_z2_plus" remote="github" revision="android-7.1"/>
 
   <project path="device/qcom/common" name="TeamWin/android_device_qcom_common" remote="github" revision="android-7.1"/>
 
