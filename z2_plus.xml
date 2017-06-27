@@ -17,5 +17,7 @@
   <project path="packages/apps/FlipFlap" name="LineageOS/android_packages_apps_FlipFlap" remote="github"/>
 
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github"/>
+
+  <project path="hardware/sony/timekeep" name="LineageOS/android_hardware_sony_timekeep" remote="github"/>
  
 </manifest>
