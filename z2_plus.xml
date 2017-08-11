@@ -2,15 +2,15 @@
 
 <manifest>
 
-  <remote name="z2plus-dev" fetch="https://github.com/z2plus-dev/" push="ssh://git@github.com/z2plus-dev/" revision="cm-14.1"/>
+  <remote name="z2-dev" fetch="https://github.com/z2-dev/" push="ssh://git@github.com/z2-dev/" revision="cm-14.1"/>
   <remote name="cryscript" fetch="https://github.com/cryscript/" />
   <remote name="davidevinavil" fetch="https://github.com/davidevinavil" revision="n7x-caf" />
 
-  <project path="device/zuk/z2_plus" name="android_device_zuk_z2_plus" remote="z2plus-dev"/>
+  <project path="device/zuk/z2_plus" name="android_device_zuk_z2_plus" remote="z2-dev"/>
 
-  <project path="vendor/zuk/z2_plus" name="proprietary_vendor_zuk_z2_plus" remote="z2plus-dev"/>
+  <project path="vendor/zuk/z2_plus" name="proprietary_vendor_zuk_z2_plus" remote="z2-dev"/>
  
-  <project path="kernel/zuk/msm8996" name="android_kernel_zuk_msm8996" remote="z2plus-dev"/>
+  <project path="kernel/zuk/msm8996" name="android_kernel_zuk_msm8996" remote="z2-dev"/>
 
   <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github"/>
 
