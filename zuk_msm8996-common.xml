@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+  <remote name="z2-dev" fetch="https://github.com/z2-dev/" push="ssh://git@github.com/z2-dev/" revision="cm-14.1"/>
+
+  <project path="device/zuk/msm8996-common" name="android_device_zuk_msm8996-common" remote="z2-dev"/>
+  
+  <project path="kernel/zuk/msm8996" name="android_kernel_zuk_msm8996" remote="z2-dev"/>
+
+  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github"/>
+
+  <project path="packages/apps/FlipFlap" name="LineageOS/android_packages_apps_FlipFlap" remote="github"/>
+
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github"/>
+
+  <project path="hardware/sony/timekeep" name="LineageOS/android_hardware_sony_timekeep" remote="github"/>
+ 
+</manifest>
