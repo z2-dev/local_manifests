@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="z2-dev" fetch="https://github.com/z2-dev/" push="ssh://git@github.com/z2-dev/" revision="lineage-15.1"/>
+  <remove-project name="LineageOS/android_hardware_qcom_audio"/>
+
+  <project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" remote="z2-dev" revision="staging/lineage-15.1-caf-8996"/>
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-7.2" name="gcc-prebuilts" remote="z2-dev" revision="7.2.1"/>
+
+  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github"/>
+  <project path="packages/apps/FlipFlap" name="LineageOS/android_packages_apps_FlipFlap" remote="github"/>
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github"/>
+
+  <!--Repositories to remove-->
+  <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
+  <remove-project name="platform/prebuilts/gdb/darwin-x86" />
+  <remove-project name="platform/prebuilts/go/darwin-x86" />
+  <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
+  <remove-project name="kernel/tests" />
+  <remove-project name="LineageOS/android_packages_apps_FMRadio" />
+</manifest>
