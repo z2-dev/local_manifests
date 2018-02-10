@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<manifest>
-
-  <remote name="z2-dev" fetch="https://github.com/z2-dev/" push="ssh://git@github.com/z2-dev/" revision="cm-14.1"/>
-
-  <project path="device/zuk/z2_plus" name="android_device_zuk_z2_plus" remote="z2-dev"/>
- 
-</manifest>
